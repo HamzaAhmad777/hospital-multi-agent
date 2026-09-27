@@ -1,0 +1,29 @@
+Hospital Operating Hours
+The hospital is open from 8:00 AM to 8:00 PM, Monday to Saturday. Emergency services are available 24/7.
+
+Appointment Booking Policy
+Patients can book appointments through the AI assistant, front desk, or phone call. Appointments should be booked at least 1 hour in advance. Same-day appointments are subject to doctor availability.
+
+Cancellation Policy
+Patients can cancel or reschedule appointments up to 2 hours before the scheduled time without any penalty. Late cancellations may be subject to a small fee.
+
+Consultation Fee
+General physician consultation fee is 1500 PKR. Specialist consultation fees vary by department and are announced at the time of booking.
+
+Fasting Requirements for Blood Tests
+Patients must fast for 8 to 12 hours before routine blood tests such as lipid profile and blood sugar (fasting). Water is allowed during fasting. Fasting is not required for most other blood tests.
+
+Emergency Department
+In case of a medical emergency such as chest pain, difficulty breathing, severe bleeding, or unconsciousness, patients should go directly to the Emergency Department or call an ambulance at 1122. Emergency cases are not required to book an appointment in advance.
+
+Prescription Refills
+Patients requiring prescription refills should contact their assigned doctor through the appointment system. Refills for chronic medications may be issued without an in-person visit at the doctor's discretion.
+
+Insurance and Payment
+The hospital accepts cash and major insurance providers. Patients should confirm insurance coverage with the billing department before their appointment.
+
+Patient Records and Privacy
+All patient medical records are kept strictly confidential and are only accessible to authorized medical staff and the patient themselves.
+
+Visiting Hours for Admitted Patients
+Visiting hours for admitted patients are from 4:00 PM to 6:00 PM daily. A maximum of two visitors are allowed per patient at a time.
