@@ -35,6 +35,16 @@ def route_query(state):
     Supervisor node - looks at the user's last message and decides
     which agent should run next
     """
+    # If an appointment is waiting on a yes/no confirmation, keep routing to the
+    # appointment agent regardless of what the LLM would classify this reply as.
+    # Otherwise a short reply like "yes" could get misclassified as "general".
+    if state.get("pending_appointment"):
+        return {
+            "intent": "appointment",
+            "next_agent": "appointment",
+            "is_emergency": False
+        }
+
     last_message = state["messages"][-1].content
 
     chain = SUPERVISOR_PROMPT | llm
@@ -60,7 +70,8 @@ if __name__ == "__main__":
     from langchain_core.messages import HumanMessage
 
     test_state = {
-        "messages": [HumanMessage(content="I need an appointment with a doctor tomorrow")]
+        "messages": [HumanMessage(content="I need an appointment with a doctor tomorrow")],
+        "pending_appointment": None
     }
     result = route_query(test_state)
     print("Result:", result)
